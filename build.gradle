@@ -57,26 +57,8 @@ tasks.withType(Test) {
     }
 }
 
-task menuMarketPlaceTest(type: Test) {
+task dstLabTests(type: Test) {
     useJUnitPlatform {
-        includeTags("menuMarketPlaceTest")
-    }
-}
-
-task menuSiteTest(type: Test) {
-    useJUnitPlatform {
-        includeTags("menuSiteTest")
-    }
-}
-
-task menuContextTest(type: Test) {
-    useJUnitPlatform {
-        includeTags("menuContextTest")
-    }
-}
-
-task getCall(type: Test) {
-    useJUnitPlatform {
-        includeTags("getCall")
+        includeTags("dstLabTests")
     }
 }

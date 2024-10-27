@@ -7,7 +7,7 @@ import pages.DstLabPage;
 
 import static com.codeborne.selenide.logevents.SelenideLogger.step;
 
-
+@Tag("dstLabTests")
 public class DstLabTest extends TestBase {
 
    private final DstLabPage dstLabPage = new DstLabPage();
