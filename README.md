@@ -5,7 +5,6 @@
 
 * <a href="#project">Проект</a>
 * <a href="#vacancy">Вакансия</a>
-* <a href="#task">Тестовое задание</a>
 * <a href="#git">GitHub</a>
 * <a href="#jenkins">Jenkins</a>
 * <a href="#allure">Allure Report</a>
@@ -16,9 +15,15 @@
 <h1 align="center">Проект</h1>
 
 <img align="center" src="https://dstlab.ru/wp-content/uploads/2021/12/logo.svg" height="100" width="100" />
-**DSTLab** - маркетинговое агенство, оказывающее услуги по контектсной рекламе, созданию сайтов и сопровождению на маркетплейсах.
+Для компании DSTLab выполнила тетовое задание:
+- Написать автотесты
+- Выложить проект на GitHub
+- Создать задачу в Jenkins
+- Вывести отчет в Allure
+- Получить уведомление о прохождении тестов в Telegram Bot
 
 https://dstlab.ru/
+
 
 ---
 <a id="vacancy"></a>
@@ -26,19 +31,9 @@ https://dstlab.ru/
 
 Заинтересовала вакансия в [Telegram](https://t.me/qa_jobs/217127)
 
-<a id="task"></a>
-<h1 align="center">Тестовое задание</h1>
-
-Для компании **DSTLab** выполнила тестовое задание:
-- Написать автотесты
-- Выложить проект на GitHub
-- Создать задачу в Jenkins
-- Вывести отчет в Allure
-- Получить уведомление о прохождении тестов в Telegram Bot
-
 ---
-<a id="jenkins"></a>
-<h1 align="center">Jenkins</h1>
+<a id="git"></a>
+<h1 align="center">GitHub</h1>
 
 Ссылка на репозиторий с автотестами в [GitHub](https://github.com/DariaS2302/DstLab_AutoTest)
 
@@ -47,16 +42,19 @@ https://dstlab.ru/
 <h1 align="center">Jenkins</h1>
 
 Задача в [Jenkins](https://jenkins.autotests.cloud/job/jenkins_test_dstLab/)
+<img src="Jenkins_job.jpg" width="850">
 
 ---
-<a id="jenkins"></a>
+<a id="allure"></a>
 <h1 align="center">Allure Report</h1>
 
 Отчет о прохождениии тестов в [Allure Report](https://jenkins.autotests.cloud/job/jenkins_test_dstLab/allure/)
+<img src="Allure_Report.jpg" width="850">
 
 ---
 <a id="bot"></a>
 <h1 align="center">Telegram Report</h1>
 
 Уведомление о прохождении тестов в Telegram:
+<img src="Telegram_Report.jpg" width="850">
 
