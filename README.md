@@ -42,19 +42,19 @@ https://dstlab.ru/
 <h1 align="center">Jenkins</h1>
 
 Задача в [Jenkins](https://jenkins.autotests.cloud/job/jenkins_test_dstLab/)
-<img src="Jenkins_job.jpg" width="850">
+<img src="jenkins.png" width="850">
 
 ---
 <a id="allure"></a>
 <h1 align="center">Allure Report</h1>
 
 Отчет о прохождениии тестов в [Allure Report](https://jenkins.autotests.cloud/job/jenkins_test_dstLab/allure/)
-<img src="Allure_Report.jpg" width="850">
+<img src="allure.png" width="850">
 
 ---
 <a id="bot"></a>
 <h1 align="center">Telegram Report</h1>
 
 Уведомление о прохождении тестов в Telegram:
-<img src="Telegram_Report.jpg" width="850">
+<img src="telegram.png" width="850">
 
