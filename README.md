@@ -15,14 +15,17 @@
 <h1 align="center">Проект</h1>
 
 <img align="center" src="https://dstlab.ru/wp-content/uploads/2021/12/logo.svg" height="100" width="100" />
-Для компании DSTLab выполнила тетовое задание:
+
+
+https://dstlab.ru/
+
+Для компании DSTLab выполнила тестовое задание:
+
 - Написать автотесты
 - Выложить проект на GitHub
 - Создать задачу в Jenkins
 - Вывести отчет в Allure
 - Получить уведомление о прохождении тестов в Telegram Bot
-
-https://dstlab.ru/
 
 
 ---
@@ -42,6 +45,8 @@ https://dstlab.ru/
 <h1 align="center">Jenkins</h1>
 
 Задача в [Jenkins](https://jenkins.autotests.cloud/job/jenkins_test_dstLab/)
+
+
 <img src="jenkins.png" width="850">
 
 ---
@@ -49,6 +54,8 @@ https://dstlab.ru/
 <h1 align="center">Allure Report</h1>
 
 Отчет о прохождениии тестов в [Allure Report](https://jenkins.autotests.cloud/job/jenkins_test_dstLab/allure/)
+
+
 <img src="allure.png" width="850">
 
 ---
@@ -56,5 +63,7 @@ https://dstlab.ru/
 <h1 align="center">Telegram Report</h1>
 
 Уведомление о прохождении тестов в Telegram:
+
+
 <img src="telegram.png" width="850">
 
