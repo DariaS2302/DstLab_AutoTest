@@ -66,5 +66,5 @@ https://dstlab.ru/
 <h1 align="center">Видео о прохождении тестов</h1>
 
 <p align="center">
-<img title="Selenoid Video" src="images/video/video.gif" width="650" height="250"  alt="video">   
+<img title="Selenoid Video" src="images/video/video.gif" width="650" height="350"  alt="video">   
 </p>
