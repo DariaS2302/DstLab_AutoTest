@@ -54,5 +54,4 @@ public class DstLabPage {
         $("[data-id = '30ab9a2']").$(".elementor-heading-title").shouldHave(text("Заполните форму"));
     }
 
-
 }

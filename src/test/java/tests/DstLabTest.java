@@ -21,6 +21,5 @@ public class DstLabTest extends TestBase {
         steps.getCall();
         steps.checkCall();
     }
-
 }
 
