@@ -1,5 +1,7 @@
 package pages;
 
+import io.qameta.allure.Step;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
@@ -7,49 +9,49 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class DstLabPage {
 
-    public DstLabPage openPage() {
+    @Step("Открываем главную страницу")
+    public void openPage() {
         open("/");
-        return this;
     }
 
-    public DstLabPage getMenuMarket() {
+    @Step("Клик по меню Маркетплейсы")
+    public void getMenuMarket() {
         $(".menu-item-3251").click();
-        return this;
     }
 
-    public DstLabPage checkMenuMarket() {
+    @Step("Проверка открытия страницы Маркетплейсов")
+    public void checkMenuMarket() {
         $("[data-id = 'b1bd042']").$(".elementor-widget-container").shouldHave(text("Продвижение на маркетплейсе "));
-        return this;
     }
 
-    public DstLabPage getMenuSite() {
+    @Step("Клик по меню Создание сайтов")
+    public void getMenuSite() {
         $(".menu-item-3250").click();
-        return this;
     }
 
-    public DstLabPage checkMenuSite() {
+    @Step("Проверка открытия страницы Создания сайтов")
+    public void checkMenuSite() {
         $("[data-id = 'b1e3c94']").$(".elementor-widget-container").shouldHave(text("Разработка сайтов"));
-        return this;
     }
 
-    public DstLabPage getMenuContext() {
+    @Step("Клик по меню Контекстная реклама")
+    public void  getMenuContext() {
         $(".menu-item-3249").click();
-        return this;
     }
 
-    public DstLabPage checkMenuContext() {
+    @Step("Проверка открытия страницы Контекстная реклама")
+    public void checkMenuContext() {
         $("[data-id = '2cd2aabe']").$(".elementor-widget-container").shouldHave(text("Контекстная реклама Яндекс"));
-        return this;
     }
 
-    public DstLabPage getCall() {
+    @Step("Клик по кнопке Заказать звонок")
+    public void getCall() {
         $(".elementor-button-wrapper").$(byText("Заказать звонок")).click();
-        return this;
     }
 
-    public DstLabPage checkCall() {
+    @Step("Проверка открытия формы для заказа звонка")
+    public void checkCall() {
         $("[data-id = '30ab9a2']").$(".elementor-heading-title").shouldHave(text("Заполните форму"));
-        return this;
     }
 
 
