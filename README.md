@@ -41,7 +41,7 @@ https://dstlab.ru/
 Задача в [Jenkins](https://jenkins.autotests.cloud/job/jenkins_test_dstLab/)
 
 
-<img src="images/jenkins.png" width="850">
+<img src="images/jenkins.png" width="950">
 
 ---
 <a id="allure"></a>
@@ -50,7 +50,7 @@ https://dstlab.ru/
 Отчет о прохождениии тестов в [Allure Report](https://jenkins.autotests.cloud/job/jenkins_test_dstLab/allure/)
 
 
-<img src="images/allure.png" width="850">
+<img src="images/allure.png" width="950">
 
 ---
 <a id="bot"></a>
@@ -59,12 +59,12 @@ https://dstlab.ru/
 Уведомление о прохождении тестов в Telegram:
 
 
-<img src="images/telegram.png" width="850">
+<img src="images/telegram.png" width="950">
 
 ---
 <a id="video"></a>
 <h1 align="center">Видео о прохождении тестов</h1>
 
 <p align="center">
-<img title="Selenoid Video" src="images/video/video.gif" width="550" height="350"  alt="video">   
+<img title="Selenoid Video" src="images/video/video.gif" width="650" height="250"  alt="video">   
 </p>
