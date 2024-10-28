@@ -8,6 +8,7 @@
 * <a href="#jenkins">Jenkins</a>
 * <a href="#allure">Allure Report</a>
 * <a href="#bot">Telegram Report</a>
+* <a href="#video">Видео о прохождении тестов</a>
 
 ---
 <a id="project"></a>
@@ -59,4 +60,12 @@ https://dstlab.ru/
 
 
 <img src="images/telegram.png" width="850">
+
+---
+<a id="video"></a>
+<h1 align="center">Видео о прохождении тестов</h1>
+
+<p align="center">
+<img title="Selenoid Video" src="images/video/video.gif" width="550" height="350"  alt="video">   
+</p>
 
