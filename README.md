@@ -68,4 +68,3 @@ https://dstlab.ru/
 <p align="center">
 <img title="Selenoid Video" src="images/video/video.gif" width="550" height="350"  alt="video">   
 </p>
-
