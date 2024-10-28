@@ -5,7 +5,6 @@
 
 * <a href="#project">Проект</a>
 * <a href="#vacancy">Вакансия</a>
-* <a href="#git">GitHub</a>
 * <a href="#jenkins">Jenkins</a>
 * <a href="#allure">Allure Report</a>
 * <a href="#bot">Telegram Report</a>
@@ -33,12 +32,6 @@ https://dstlab.ru/
 <h1 align="center">Вакансия</h1>
 
 Заинтересовала вакансия в [Telegram](https://t.me/qa_jobs/217127)
-
----
-<a id="git"></a>
-<h1 align="center">GitHub</h1>
-
-Ссылка на репозиторий с автотестами в [GitHub](https://github.com/DariaS2302/DstLab_AutoTest)
 
 ---
 <a id="jenkins"></a>
