@@ -2,24 +2,26 @@ package tests;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import pages.DstLabPage;
+import pages.*;
 
 @Tag("dstLabTests")
 public class DstLabTest extends TestBase {
 
     @Test
     public void dstLabTest() {
-        DstLabPage steps = new DstLabPage();
+        MainPage mainPage = new MainPage();
+        MarketPage marketPage = new MarketPage();
+        ContexPage contexPage = new ContexPage();
+        SitePage sitePage = new SitePage();
 
-        steps.openPage();
-        steps.getMenuMarket();
-        steps.checkMenuMarket();
-        steps.getMenuContext();
-        steps.checkMenuContext();
-        steps.getMenuSite();
-        steps.checkMenuSite();
-        steps.getCall();
-        steps.checkCall();
+        mainPage.getMenuMarket();
+        marketPage.checkMenuMarket();
+        mainPage.getMenuContext();
+        contexPage.checkMenuContext();
+        mainPage.getMenuSite();
+        sitePage.checkMenuSite();
+        mainPage.getCall();
+        mainPage.checkCall();
     }
 }
 

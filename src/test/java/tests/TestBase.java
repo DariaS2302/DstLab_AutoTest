@@ -8,6 +8,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import pages.MainPage;
 
 import java.util.Map;
 import java.util.Objects;
@@ -36,6 +37,12 @@ public class TestBase {
     @BeforeEach
     void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+    }
+
+    @BeforeEach
+    void openPage() {
+        MainPage dstLabPage = new MainPage();
+        dstLabPage.openPage();
     }
 
     @AfterEach
