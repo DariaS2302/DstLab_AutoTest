@@ -11,9 +11,4 @@ public class MarketPage {
     public void checkMenuMarket() {
         $("[data-id = 'b1bd042']").$(".elementor-widget-container").shouldHave(text("Продвижение на маркетплейсе "));
     }
-
-
-
-
-
 }

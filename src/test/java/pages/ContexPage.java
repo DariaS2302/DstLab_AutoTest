@@ -11,4 +11,5 @@ public class ContexPage {
     public void checkMenuContext() {
         $("[data-id = '2cd2aabe']").$(".elementor-widget-container").shouldHave(text("Контекстная реклама Яндекс"));
     }
+
 }

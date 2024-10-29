@@ -11,4 +11,5 @@ public class SitePage {
     public void checkMenuSite() {
         $("[data-id = 'b1e3c94']").$(".elementor-widget-container").shouldHave(text("Разработка сайтов"));
     }
+
 }

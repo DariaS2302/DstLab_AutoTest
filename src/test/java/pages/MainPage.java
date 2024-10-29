@@ -38,5 +38,4 @@ public class MainPage {
     public void checkCall() {
         $("[data-id = '30ab9a2']").$(".elementor-heading-title").shouldHave(text("Заполните форму"));
     }
-
 }

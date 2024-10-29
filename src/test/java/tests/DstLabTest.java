@@ -23,5 +23,6 @@ public class DstLabTest extends TestBase {
         mainPage.getCall();
         mainPage.checkCall();
     }
+
 }
 

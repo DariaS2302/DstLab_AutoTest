@@ -41,8 +41,8 @@ public class TestBase {
 
     @BeforeEach
     void openPage() {
-        MainPage dstLabPage = new MainPage();
-        dstLabPage.openPage();
+        MainPage mainPage = new MainPage();
+        mainPage.openPage();
     }
 
     @AfterEach
